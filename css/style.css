@@ -1779,7 +1779,7 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   word-break: break-all;
 }
 .bg-light-floor-archive {
-  background: ;
+  background: /medias/archive_background.jpg;
   background-size: cover;
   background-position: center center;
 }

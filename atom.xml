@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-06-19T11:01:32.806Z</updated>
+  <updated>2021-06-19T17:29:17.990Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Where Do We Come From? What Are We? Where Are We Going?</title>
+    <link href="http://example.com/2021/06/20/who-are-we/"/>
+    <id>http://example.com/2021/06/20/who-are-we/</id>
+    <published>2021-06-19T17:19:16.000Z</published>
+    <updated>2021-06-19T17:29:17.990Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Where Do We Come From? What Are We? Where Are We Going? is a Post-Impressionist oil on canvas painting created by Paul Gauguin from 1897</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Paul Gauguin" scheme="http://example.com/tags/Paul-Gauguin/"/>
+    
+    <category term="Post-Impressionism" scheme="http://example.com/tags/Post-Impressionism/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
