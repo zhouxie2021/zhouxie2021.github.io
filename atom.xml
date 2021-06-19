@@ -3,14 +3,14 @@
   <title>Online Art History Museum</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://zhouxie2021.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://zhouxie2021.github.io/"/>
   <updated>2021-06-19T17:29:17.990Z</updated>
-  <id>http://example.com/</id>
+  <id>http://zhouxie2021.github.io/</id>
   
   <author>
-    <name>Shibo Zhou</name>
+    <name>Online Art History Museum</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Where Do We Come From? What Are We? Where Are We Going?</title>
-    <link href="http://example.com/2021/06/20/who-are-we/"/>
-    <id>http://example.com/2021/06/20/who-are-we/</id>
+    <link href="http://zhouxie2021.github.io/2021/06/20/who-are-we/"/>
+    <id>http://zhouxie2021.github.io/2021/06/20/who-are-we/</id>
     <published>2021-06-19T17:19:16.000Z</published>
     <updated>2021-06-19T17:29:17.990Z</updated>
     
@@ -35,16 +35,16 @@
     
     
     
-    <category term="Paul Gauguin" scheme="http://example.com/tags/Paul-Gauguin/"/>
+    <category term="Paul Gauguin" scheme="http://zhouxie2021.github.io/tags/Paul-Gauguin/"/>
     
-    <category term="Post-Impressionism" scheme="http://example.com/tags/Post-Impressionism/"/>
+    <category term="Post-Impressionism" scheme="http://zhouxie2021.github.io/tags/Post-Impressionism/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/06/19/hello-world/"/>
-    <id>http://example.com/2021/06/19/hello-world/</id>
+    <link href="http://zhouxie2021.github.io/2021/06/19/hello-world/"/>
+    <id>http://zhouxie2021.github.io/2021/06/19/hello-world/</id>
     <published>2021-06-19T11:01:32.806Z</published>
     <updated>2021-06-19T11:01:32.806Z</updated>
     
