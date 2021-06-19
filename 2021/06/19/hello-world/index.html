@@ -106,6 +106,52 @@
     <div class="drawer-box-content">
       <ul class="drawer-box-content_menu">
         
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/archives" class="drawer-menu-item-link">
+                  
+                    <i class="fa fa-archive" aria-hidden="true"></i>
+                  
+                  <span class="name">Archives</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/tags" class="drawer-menu-item-link">
+                  
+                    <i class="fa fa-tags" aria-hidden="true"></i>
+                  
+                  <span class="name">Tags</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/categories" class="drawer-menu-item-link">
+                  
+                    <i class="fa fa-bookmark" aria-hidden="true"></i>
+                  
+                  <span class="name">Categories</span>
+                </a>
+              
+            </li>
+          
+            <li class="drawer-box-content_item" style="position: relative;">
+              
+                <a href="/about" class="drawer-menu-item-link">
+                  
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                  
+                  <span class="name">About</span>
+                </a>
+              
+            </li>
+          
+        
         <li class="drawer-box-content_item">
           <a target="_blank" rel="noopener" href="https://github.com/zhouxie2021">
             <i class="fa fa-github" aria-hidden="true"></i>
@@ -173,6 +219,52 @@
     </div>
     <nav class="navbar">
       <ul class="menu">
+        
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/archives" class="menu-item-link">
+                  
+                    <i class="fa fa-archive" aria-hidden="true"></i>
+                  
+                  <span class="name">Archives</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/tags" class="menu-item-link">
+                  
+                    <i class="fa fa-tags" aria-hidden="true"></i>
+                  
+                  <span class="name">Tags</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/categories" class="menu-item-link">
+                  
+                    <i class="fa fa-bookmark" aria-hidden="true"></i>
+                  
+                  <span class="name">Categories</span>
+                </a>
+              
+            </li>
+          
+            <li class="menu-item" style="position: relative;">
+              
+                <a href="/about" class="menu-item-link">
+                  
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                  
+                  <span class="name">About</span>
+                </a>
+              
+            </li>
+          
         
       </ul>
       
@@ -524,6 +616,23 @@
 
       </div>
       
+        <div class="copyright">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+    <strong>author:  </strong>Shibo Zhou</a>
+    </li>
+    <li class="post-copyright-link">
+    <strong>link:  </strong>
+    <a href="/2021/06/19/hello-world/" target="_blank" title="Hello World">http://example.com/2021/06/19/hello-world/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>Copyright notice:   </strong>
+      All articles on this website, unless otherwise stated, adopt <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      reprint policy. If reproduced, please indicate source!
+    </li>
+  </ul>
+<div>
+      
     </article>
     <!-- 上一篇文章和下一篇文章 -->
     
@@ -540,89 +649,6 @@
     
 
     <!-- 打赏 -->
-    
-      <div id="appDonate" class="post-donate">
-  <div id="donate_board" class="donate_bar center" ref="donate">
-    <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a>
-  </div>
-  <transition name="fade">
-    <div 
-      class="donate-box-mask"
-      v-cloak 
-      v-if="visible"
-      @click="cancelDialogDrawer()"
-    >
-    </div>
-  </transition>
-  <transition name="bounce">
-    <div class="donate-box" v-cloak v-if="visible">
-      <div class="donate-box_close">
-        <i class="fa fa-times" aria-hidden="true" @click="cancelDialogDrawer"></i>
-      </div>
-      <div class="donate-box_title">
-        <h4>
-          你的赏识是我前进的动力
-        </h4>
-      </div>
-      <div class="donate-box_tab">
-        <div class="Alipay" :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">
-          支付宝
-        </div>
-        <div class="WeChatpay" :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">
-          微信
-        </div>
-      </div>
-      <div class="donate-box_img">
-        <div class="AlipayImg" v-if="tabActive === 'Alipay'">
-          <img src="/medias/zfb.jpg" alt="支付宝打赏" />
-        </div> 
-        <div class="WeChatpayImg" v-if="tabActive === 'WeChatpay'">
-          <img src="/medias/wx.jpg" alt="微信打赏" />
-        </div>
-      </div>
-    </div>
-  </transition>
-</div>
-
-<script>
-  var body = document.body || document.documentElement || window;
-  var vm = new Vue({
-    el: '#appDonate',
-    data: {
-      visible: false,
-      tabActive: 'Alipay',
-      top: 0,
-    },
-    computed: {
-    },
-    mounted() {
-    },
-    methods: {
-      showDialogDrawer() {
-        this.visible = true;
-        // 防止页面滚动，只能让弹框滚动
-        // function getScroll() {
-        //   return {
-        //     left: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
-        //     top: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
-        //   };
-        // }
-        this.top = $(document).scrollTop() // or getScroll().top
-        // console.log('aa', $('.main-content'));
-        body.style.cssText = 'overflow: hidden;';
-      },
-      cancelDialogDrawer() {
-        this.visible = false;
-        body.removeAttribute('style');
-        $(document).scrollTop(this.top)
-      },
-      changeTabActive(name) {
-        this.tabActive = name;
-      }
-    },
-    created() {}
-  })
-</script>
     
 
     <!-- 分享 -->
@@ -1676,14 +1702,6 @@
           </a>
         
       
-        
-          <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=1730241541" class="social">
-            
-              <i class="fa fa-qq" aria-hidden="true"></i>
-            
-          </a>
-        
-      
     </div>
     
 	
@@ -1691,21 +1709,6 @@
       
     </div>
     <!-- 不蒜子统计 -->
-    
-      
-  <!-- 不蒜子统计 -->
-  <span id="busuanzi_container_site_pv">
-        <i class="fa fa-book" aria-hidden="true"></i>Total reading：<span id="busuanzi_value_page_pv"></span> times
-  </span>
-  <span id="busuanzi_container_site_pv">
-        <i class="fa fa-eye" aria-hidden="true"></i>Total visits：<span id="busuanzi_value_site_pv"></span> times
-  </span>
-  <span class="post-meta-divider">|</span>
-  <span id="busuanzi_container_site_uv" style='display:none'>
-        <i class="fa fa-users" aria-hidden="true"></i>Number of visitors：<span id="busuanzi_value_site_uv"></span> people
-  </span>
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
     
   </div>
 </div>
