@@ -633,9 +633,8 @@ pre:hover::-webkit-scrollbar-thumb:hover,
   justify-content: space-between;
 }
 .main-content {
-  width: 65%;
-  margin-right: 10px;
-  margin-left: calc(35% - 355px);
+  width: 75%;
+  margin: 0 auto;
   margin-top: 10px;
   transition: width 0.3s;
 }
