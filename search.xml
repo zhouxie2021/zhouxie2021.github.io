@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>School of Athens</title>
+      <link href="/2021/06/20/hello-world/"/>
+      <url>/2021/06/20/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>The School of Athens represents all the greatest mathematicians, philosophers and scientists from classical antiquity gathered together sharing their ideas and learning from each other. These figures all lived at different times, but here they are gathered together under one roof.</p><p>The two thinkers in the very center, Aristotle (on the right) and Plato (on the left, pointing up) have been enormously important to Western thinking generally, and in different ways, their different philosophies were incoporated into Christianity.</p><p>Plato points up because in his philosophy the changing world that we see around us is just a shadow of a higher, truer reality that is eternal and unchanging (and include things like goodness and beauty). For Plato, this otherworldly reality is the ultimate reality, and the seat of all truth, beauty, justice, and wisdom. Plato holds his book called the Timaeus.</p><p>Aristotle holds his hand down, because in his philosophy, the only reality is the one that we can see and experience by sight and touch (exactly the reality dismissed by Plato). Aristotle’s Ethics (the book that he holds) “emphasized the relationships, justice, friendship, and government of the human world and the need to study it.”</p><p>Pythagoras (lower left) believed that the world (including the movement of the planets and stars) operated according to mathematical laws. These mathematical laws were related to ideas of musical and cosmic harmony, and thus (for the Christians who interpreted him in the Renaissance) to God. Pythagoras taught that each of the planets produced a note as it moved, based on its distance from the earth. Together, the movement of all the planets was perfect harmony – “the harmony of the spheres.”</p><p>Ptolemy (he has his back to us on the lower right), holds a sphere of the earth, next to him is Zaroaster who holds a celestial sphere. Ptolemy tried to mathematically explain the movements of the planets (which was not easy since some of them appear to move backwards!). His theory of how they all moved around the earth remained the authority until Copernicus and Kepler figured out (in the late 16th century) that the earth was not at the center of the universe, and that the planets moved in orbits the shape of ellipses not in circles. Raphael included a self-portrait of himself, standing next to Ptolemy. He looks right out at us.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Renaissance in Italy </tag>
+            
+            <tag> Raphael </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>The Last Supper</title>
       <link href="/2021/06/20/supper/"/>
       <url>/2021/06/20/supper/</url>
@@ -82,19 +103,6 @@
             <tag> Post-Impressionism </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2021/06/19/hello-world/"/>
-      <url>/2021/06/19/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     

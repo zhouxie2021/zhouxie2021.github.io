@@ -6,7 +6,7 @@
   <link href="http://zhouxie2021.github.io/atom.xml" rel="self"/>
   
   <link href="http://zhouxie2021.github.io/"/>
-  <updated>2021-06-20T03:17:33.716Z</updated>
+  <updated>2021-06-20T03:20:36.370Z</updated>
   <id>http://zhouxie2021.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>School of Athens</title>
+    <link href="http://zhouxie2021.github.io/2021/06/20/hello-world/"/>
+    <id>http://zhouxie2021.github.io/2021/06/20/hello-world/</id>
+    <published>2021-06-20T03:15:02.000Z</published>
+    <updated>2021-06-20T03:20:36.370Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;The School of Athens represents all the greatest mathematicians, philosophers and scientists from classical antiquity gathered together</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Renaissance in Italy" scheme="http://zhouxie2021.github.io/tags/Renaissance-in-Italy/"/>
+    
+    <category term="Raphael" scheme="http://zhouxie2021.github.io/tags/Raphael/"/>
+    
+  </entry>
   
   <entry>
     <title>The Last Supper</title>
@@ -117,27 +142,6 @@
     <category term="Paul Gauguin" scheme="http://zhouxie2021.github.io/tags/Paul-Gauguin/"/>
     
     <category term="Post-Impressionism" scheme="http://zhouxie2021.github.io/tags/Post-Impressionism/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://zhouxie2021.github.io/2021/06/19/hello-world/"/>
-    <id>http://zhouxie2021.github.io/2021/06/19/hello-world/</id>
-    <published>2021-06-19T11:01:32.806Z</published>
-    <updated>2021-06-19T11:01:32.806Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
