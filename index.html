@@ -1089,10 +1089,44 @@
         :data="listData"
         :class-option="classOption"
         class="warp"
-        style="height: 0px"
+        style="height: 60px"
       >
         <ul class="index-notice-content__ul">
           
+          
+            <li>
+              
+                <div class="index-notice-content__title">
+                  
+                    <span title="#Welcome to the Online Art Museum" style="color:red">
+                      #Welcome to the Online Art Museum
+                    </span>
+                  
+                </div>
+                
+                  <div class="index-notice-content__date" style="color:red">
+                    2021-04-28
+                  </div>
+                
+              
+            </li>
+          
+            <li>
+              
+                <div class="index-notice-content__title">
+                  
+                    <a href="/archives" title="#We are still updating artworks!" style="color:red">
+                      #We are still updating artworks!
+                    </a>
+                  
+                </div>
+                
+                  <div class="index-notice-content__date" style="color:red">
+                    2021-04-28
+                  </div>
+                
+              
+            </li>
            
         </ul>
       </vue-seamless-scroll>
@@ -1107,7 +1141,7 @@
 <script>
   let seamless = JSON.parse('false');
   seamless = seamless ? 0 : 30;
-  let listData = '' || [];
+  let listData = '[object Object],[object Object]' || [];
   listData = listData.split(',');
   var vm = new Vue({
     el: '#appIndexNotice',
