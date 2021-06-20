@@ -6,7 +6,7 @@
   <link href="http://zhouxie2021.github.io/atom.xml" rel="self"/>
   
   <link href="http://zhouxie2021.github.io/"/>
-  <updated>2021-06-20T03:14:20.769Z</updated>
+  <updated>2021-06-20T03:17:33.716Z</updated>
   <id>http://zhouxie2021.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>venus</title>
+    <title>The Last Supper</title>
+    <link href="http://zhouxie2021.github.io/2021/06/20/supper/"/>
+    <id>http://zhouxie2021.github.io/2021/06/20/supper/</id>
+    <published>2021-06-20T03:15:02.000Z</published>
+    <updated>2021-06-20T03:17:33.716Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;A bit of history about the Leonardo’s Last Supper&lt;/p&gt;
+&lt;p&gt;The Last Supper of Leonardo da Vinci (Cenacolo Vinciano) is one of the most</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Renaissance in Italy" scheme="http://zhouxie2021.github.io/tags/Renaissance-in-Italy/"/>
+    
+    <category term="Leonardo da Vinci" scheme="http://zhouxie2021.github.io/tags/Leonardo-da-Vinci/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Birth of Venus</title>
     <link href="http://zhouxie2021.github.io/2021/06/20/venus/"/>
     <id>http://zhouxie2021.github.io/2021/06/20/venus/</id>
     <published>2021-06-20T03:11:17.000Z</published>
-    <updated>2021-06-20T03:14:20.769Z</updated>
+    <updated>2021-06-20T03:16:33.649Z</updated>
     
     
       
